@@ -102,18 +102,7 @@ WSGI_APPLICATION = 'authProject.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
-DATABASES = {
-'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dfti9u48qh15ff',
-        'USER': 'qnjgrhnizapvkc',
-        'PASSWORD': '27193960fd7b3d3c38e7939cb9225571c82a514dc64ae08fff161e1f16f6cf3d',
-        'HOST': 'ec2-34-205-14-168.compute-1.amazonaws.com',
-        'PORT': '5432',
-    }
-}
 
-# DATABASES ="postgres://bnumxrzhpvpcea:f79d7c223a3a05584a011a6878ae4c2188f42b01493d38832186ed6e78f4c3f5@ec2-44-193-228-249.compute-1.amazonaws.com:5432/d3hnf7npevq0j0"
 # DATABASES["default"]["ATOMIC_REQUESTS"] = True
 
 # Password validation
